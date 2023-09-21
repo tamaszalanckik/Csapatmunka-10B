@@ -1,3 +1,31 @@
 html{
-    
+    /* betutipus */
+}
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 40px 0px;
+}
+
+#koronaHatter{ 
+    background-image: url(../Kepek/korona.jpg);
+    background-position: center;
+    opacity: 75%;
+    height: 150px;
+}
+
+.col{
+    background-color: rgb(143, 135, 135);
+    margin: 10px;
+}
+
+.col{
+    margin: 10px 10px;
+    height: fit-content;
+}
+
+table tr td{
+    border: 2px solid black;
+    color: lightgray;
 }
