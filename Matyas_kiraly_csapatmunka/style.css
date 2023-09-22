@@ -15,6 +15,10 @@ h1{
     text-shadow: whitesmoke 1px 0 10px;
 }
 
+h2{
+    text-decoration: underline black 5px dotted;
+}
+
 #koronaHatter{ 
     background-image: url(../Kepek/korona.jpg);
     background-position: center;
@@ -25,9 +29,18 @@ h1{
 .row div{
     background-color: rgb(109, 103, 103);
     color: white;
+    border: 3px dotted darkgray;
 }
 
 table tr td{
     border: 2px solid black;
     width: 100%;
+}
+
+@media screen and (max-width: 320px) {
+    
+    #eltunes{
+        display: none;
+    }
+
 }
