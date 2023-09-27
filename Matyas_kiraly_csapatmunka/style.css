@@ -5,12 +5,12 @@ html{
 
 body{
     background-color: lightgray;
-    padding: 1em;
+    
 }
 
 h1{
     text-align: center;
-    color: white;
+    color:white;
     padding: 40px 0px;
     text-shadow: whitesmoke 1px 0 10px;
 }
@@ -37,6 +37,22 @@ table tr td{
     width: 100%;
 }
 
+.img-fluid {
+    height: 300px;
+    display: block;
+    margin: auto;
+}
+
+li {
+    list-style-type:"🛡";
+}
+
+#matyas_kepek {
+    text-align: center;
+
+}
+
+
 @media screen and (max-width: 320px) {
     
     #eltunes{
@@ -44,3 +60,4 @@ table tr td{
     }
 
 }
+
