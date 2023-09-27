@@ -62,9 +62,19 @@ li {
 
 }
 
-@media screen and(max-width: 720px) {
-    #kozep{
-        display: block;
-        margin: auto;
+@media screen and (max-width: 960px) {
+    
+    .img-fluid{
+        height: 200px;
     }
+
 }
+
+@media screen and (max-width: 768px) {
+
+    .img-fluid{
+        height: 300px;
+    }
+    
+}
+
