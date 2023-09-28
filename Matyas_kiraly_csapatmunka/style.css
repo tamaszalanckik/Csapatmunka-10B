@@ -53,6 +53,7 @@ li {
 
 }
 
+
 #center{
     text-align: center;
     display: block;
@@ -69,6 +70,11 @@ li {
 #copyright{
     text-align: center;
 }
+
+.table td:first-child {
+    width: 50%;
+}
+
 
 @media screen and (max-width: 320px) {
     
