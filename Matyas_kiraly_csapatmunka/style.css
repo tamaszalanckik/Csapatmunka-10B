@@ -62,8 +62,6 @@ li {
     padding: 5px;
 }
 
-
-
 #kozepre {
     width:fit-content;
     margin: auto;
@@ -86,6 +84,16 @@ li {
 #float{
     float: right;
     overflow: hidden;
+}
+
+#Tcenter{
+    text-align: center;
+    font-size: 1.1em;
+}
+
+#wiki{
+    padding-left: 10px;
+    font-size: 1.5em;
 }
 
 @media screen and (max-width: 320px) {
