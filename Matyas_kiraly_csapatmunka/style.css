@@ -54,11 +54,19 @@ li {
 }
 
 #center{
-    text-align: center;
     display: block;
+    text-align: center;
     font-size: 26px;
     text-decoration: none;
     color: gray;
+    padding: 5px;
+}
+
+
+
+#kozepre {
+    width:fit-content;
+    margin: auto;
 }
 
 #center:hover{
@@ -72,6 +80,10 @@ li {
 
 .table td:first-child {
     width: 50%;
+}
+
+#float {
+    float: right;
 }
 
 
@@ -97,5 +109,11 @@ li {
         height: 300px;
     }
     
+}
+
+@media  screen and (max-width: 440px) {
+    #float {
+        display: none;
+    }
 }
 
