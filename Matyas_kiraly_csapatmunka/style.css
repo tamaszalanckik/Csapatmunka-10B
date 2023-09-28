@@ -68,12 +68,22 @@ li {
 
 #copyright{
     text-align: center;
+    margin: 0;
 }
 
 .table td:first-child {
     width: 50%;
 }
 
+#float{
+    float: right;
+    overflow: hidden;
+}
+
+#Tcenter{
+    text-align: center;
+    font-size: 1.1em;
+}
 
 @media screen and (max-width: 320px) {
     
