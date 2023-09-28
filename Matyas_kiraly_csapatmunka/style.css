@@ -54,11 +54,19 @@ li {
 }
 
 #center{
-    text-align: center;
     display: block;
+    text-align: center;
     font-size: 26px;
     text-decoration: none;
     color: gray;
+    padding: 5px;
+}
+
+
+
+#kozepre {
+    width:fit-content;
+    margin: auto;
 }
 
 #center:hover{
@@ -78,11 +86,6 @@ li {
 #float{
     float: right;
     overflow: hidden;
-}
-
-#Tcenter{
-    text-align: center;
-    font-size: 1.1em;
 }
 
 @media screen and (max-width: 320px) {
@@ -107,5 +110,11 @@ li {
         height: 300px;
     }
     
+}
+
+@media  screen and (max-width: 440px) {
+    #float {
+        display: none;
+    }
 }
 
